@@ -19,8 +19,6 @@ import { Register } from './pages/Register/Register.tsx';
 
 
 
-// test
-
 const Menu = lazy(() => import('./pages/Menu/Menu.tsx'));
 
 const ErrorElement = () => <>Ошибка</>
