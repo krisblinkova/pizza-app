@@ -1,0 +1,15 @@
+.head {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: px;
+
+}
+
+.body {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    gap: 50px ;
+
+}

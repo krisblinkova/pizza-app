@@ -1,0 +1,26 @@
+.search {
+    border: 1px solid #efefef;
+    border-radius: 10px;
+    min-width: 256px;
+    height: 51px;
+    background: #fcfcfd;
+    font-weight: 400;
+    font-size: 14px;
+    padding-left: 44px ;
+}
+
+.input-wrapper {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.icon {
+    position: absolute;
+    left: 18px;
+    top: 18px;
+}
+
+.placeholder {
+    color: var(--color-text-search);
+}

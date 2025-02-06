@@ -1,0 +1,41 @@
+.button {
+    font-family: inherit;
+    padding: 8px 30px;
+    border-radius: 28px;
+    border: none;
+    color:  var(--color-white);
+    border-radius: 28px;
+}
+
+.large {
+    font-weight: 600;
+    font-size: 15px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 20px 60px;
+    box-shadow: 0 10px 40px 0 rgba(122, 129, 190, 0.16);
+    min-width: 248px;
+    height: 60px;
+}
+
+.medium {   
+    width: 120px;
+    height: 44px;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    padding: 10px 24px;
+}
+.accent:hover {
+    background-color: var(--color-primary-hover); 
+}
+  
+.accent {
+    background-color: var(--color-primary); 
+
+}
+
+
+
+

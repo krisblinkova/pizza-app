@@ -1,0 +1,21 @@
+:root {
+    --color-primary: #FE724C;
+    --color-primary-hover: #ac3621; 
+    --color-text-black: #000000;
+    --color-white: #FFFFFF;
+    --color-text-small: #5B5B5E;
+    --color-placeholder: #C4C4C4;
+    --color-separator: #D4D6E0;
+    --color-text-search: #cbcfdd;
+
+    --font-family: "Open Sans", serif;
+    --font-optical-sizing: auto;
+    --font-weight: <weight>;
+    --font-style: normal;
+    --font-variation-settings: "wdth" <width>;
+}
+
+body {
+    font-family: "Open Sans", serif;
+    margin: 0;
+}

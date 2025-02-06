@@ -1,0 +1,51 @@
+.login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    width: 100%;
+    max-width: 600px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.field {
+    margin-bottom: 30px;
+}
+
+.field label {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 17px;
+    color: var(--color-placeholder);
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 14px;
+    color: #5b5b5e;
+}
+
+.links a {
+    color: var(--color-primary);
+    text-decoration: none;
+}
+
+.error {
+    font-weight: 400;
+    font-size: 14px;
+    color: #d30e0e;    
+}
+
+
+
+
+ 

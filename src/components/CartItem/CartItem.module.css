@@ -1,0 +1,87 @@
+.item {
+    min-width: 512px;
+    min-height: 82px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 40px;
+    gap: 20px;
+    
+    
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.image {
+    width: 82px;
+    height: 82px;
+    background-size: cover;
+    box-shadow: 0 8px 25px 0 rgba(224, 219, 196, 0.9);
+    border-radius: 20px;
+}
+
+.name {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 18px;
+    color: #000; 
+}
+
+.price {
+    color: var(--color-primary);
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.currency {
+    font-size: 17px;
+}
+
+
+.actions {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 8px;
+
+}
+
+
+.button-remove {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    border: 1px solid #fe724c;
+    border-radius: 17px;
+    width: 28px;
+    height: 28px;
+}
+
+.button-add {
+    display: flex;
+    justify-content: center;
+    background-color: #fe724c;
+    border: 1px solid #fe724c;
+    border-radius: 17px;
+    width: 28px;
+    height: 28px;
+    box-shadow: 0 7px 15px 0 rgba(254, 114, 76, 0.4);
+
+}
+
+.button-close {
+    display: flex;
+    justify-content: center;
+    width: 17px;
+    height: 17px;
+    background-color: white;
+    border: none;
+    margin: 17px;
+}
+
+
